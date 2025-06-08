@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d111fafd8cf016045e0636ca5b8801b2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d111fafd8cf016045e0636ca5b8801b2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d111fafd8cf016045e0636ca5b8801b2 = L.map(
+                "map_d111fafd8cf016045e0636ca5b8801b2",
+                {
+                    center: [34.047039999999996, -118.27377999999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d74759946b0d2f34cbeb23ab3ab1de0 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6d74759946b0d2f34cbeb23ab3ab1de0.addTo(map_d111fafd8cf016045e0636ca5b8801b2);
+        
+    
+            var circle_marker_969c9e20deccdf7ce02060e6197a25ce = L.circleMarker(
+                [34.0505, -118.2453],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_d111fafd8cf016045e0636ca5b8801b2);
+        
+    
+        var popup_bfa60fe3331a8b142c6b32f330e678eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_355ce3062e915b244e16881b3c004064 = $(`<div id="html_355ce3062e915b244e16881b3c004064" style="width: 100.0%; height: 100.0%;">Midnight Alley<br>Time: 00:30<br>Score: 1.0</div>`)[0];
+                popup_bfa60fe3331a8b142c6b32f330e678eb.setContent(html_355ce3062e915b244e16881b3c004064);
+            
+        
+
+        circle_marker_969c9e20deccdf7ce02060e6197a25ce.bindPopup(popup_bfa60fe3331a8b142c6b32f330e678eb)
+        ;
+
+        
+    
+    
+            var circle_marker_6173ed0d7a84ae1f711ae44360e7f4b8 = L.circleMarker(
+                [34.0611, -118.253],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_d111fafd8cf016045e0636ca5b8801b2);
+        
+    
+        var popup_7921b3ec1e354d8e18341618856fbcbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7d7639c122d5b0fb59aa8e87395be4b = $(`<div id="html_e7d7639c122d5b0fb59aa8e87395be4b" style="width: 100.0%; height: 100.0%;">Morning Market<br>Time: 08:00<br>Score: 1.0</div>`)[0];
+                popup_7921b3ec1e354d8e18341618856fbcbf.setContent(html_e7d7639c122d5b0fb59aa8e87395be4b);
+            
+        
+
+        circle_marker_6173ed0d7a84ae1f711ae44360e7f4b8.bindPopup(popup_7921b3ec1e354d8e18341618856fbcbf)
+        ;
+
+        
+    
+    
+            var circle_marker_931503e779ea889a3e230b3ef9b2698e = L.circleMarker(
+                [34.0469, -118.25],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_d111fafd8cf016045e0636ca5b8801b2);
+        
+    
+        var popup_cdb43263d33efea01c5796669f674336 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bb4054029a8a35e85154c7d92b9ff1d = $(`<div id="html_4bb4054029a8a35e85154c7d92b9ff1d" style="width: 100.0%; height: 100.0%;">Office Area<br>Time: 13:00<br>Score: 1.0</div>`)[0];
+                popup_cdb43263d33efea01c5796669f674336.setContent(html_4bb4054029a8a35e85154c7d92b9ff1d);
+            
+        
+
+        circle_marker_931503e779ea889a3e230b3ef9b2698e.bindPopup(popup_cdb43263d33efea01c5796669f674336)
+        ;
+
+        
+    
+    
+            var circle_marker_5eded1acc7026d39c0958f06b570d992 = L.circleMarker(
+                [34.0392, -118.27],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_d111fafd8cf016045e0636ca5b8801b2);
+        
+    
+        var popup_3abba9acb6bd058f673d50e9a4092571 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1329dae4ef8d421efdbb3d8bf2fd2aa = $(`<div id="html_b1329dae4ef8d421efdbb3d8bf2fd2aa" style="width: 100.0%; height: 100.0%;">Evening Park<br>Time: 18:30<br>Score: 1.0</div>`)[0];
+                popup_3abba9acb6bd058f673d50e9a4092571.setContent(html_b1329dae4ef8d421efdbb3d8bf2fd2aa);
+            
+        
+
+        circle_marker_5eded1acc7026d39c0958f06b570d992.bindPopup(popup_3abba9acb6bd058f673d50e9a4092571)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd59517fdf065e10fae4abd0b4e962a = L.circleMarker(
+                [34.0375, -118.3506],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_d111fafd8cf016045e0636ca5b8801b2);
+        
+    
+        var popup_460afe9c0f01da2ec55f72961cdd95de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_082979b28b2fbb80fe8d5153c9e39902 = $(`<div id="html_082979b28b2fbb80fe8d5153c9e39902" style="width: 100.0%; height: 100.0%;">Early Bar<br>Time: 23:15<br>Score: 1.0</div>`)[0];
+                popup_460afe9c0f01da2ec55f72961cdd95de.setContent(html_082979b28b2fbb80fe8d5153c9e39902);
+            
+        
+
+        circle_marker_4dd59517fdf065e10fae4abd0b4e962a.bindPopup(popup_460afe9c0f01da2ec55f72961cdd95de)
+        ;
+
+        
+    
+</script>
+</html>
